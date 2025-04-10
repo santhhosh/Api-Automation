@@ -1,0 +1,2 @@
+Response of delete Method: <Response [204]>
+Content of delete Method: b''

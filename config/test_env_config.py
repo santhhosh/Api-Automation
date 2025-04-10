@@ -1,0 +1,8 @@
+Get_URL = "https://reqres.in/api/users?page=2"
+Post_URL = "https://reqres.in/api/users"
+Get_URL1 = "https://reqres.in/api/users/2"
+Put_URL1 = "https://reqres.in/api/users/2"
+Post_URL1= "https://reqres.in/api/register"
+Patch_URL1= "https://reqres.in/api/users/2"
+Delete_URL1= "https://reqres.in/api/users/2"
+Post_URL2= "https://reqres.in/api/login"
