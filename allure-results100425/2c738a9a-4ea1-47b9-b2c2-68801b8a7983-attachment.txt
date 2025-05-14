@@ -1,8 +1,0 @@
-DEBUG    root:logger.py:44 Debug message
-INFO     root:logger.py:45 Information regarding the test case
-WARNING  root:logger.py:46 Test case pass but with a Warning message
-ERROR    root:logger.py:47 Test case fail
-CRITICAL root:logger.py:48 Important test case fail on which other test case depends
-INFO     root:test_PutRequest.py:11 Starting test_put_request_update
-DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
-DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "PUT /api/users/2 HTTP/1.1" 200 None

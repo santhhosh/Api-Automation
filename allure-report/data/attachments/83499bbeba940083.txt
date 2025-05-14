@@ -1,0 +1,9 @@
+DEBUG    root:logger.py:11 Debug message
+INFO     root:logger.py:12 Information regarding the test case
+WARNING  root:logger.py:13 Test case pass but with a Warning message
+ERROR    root:logger.py:14 Test case fail
+CRITICAL root:logger.py:15 Important test case fail on which other test case depends
+INFO     root:test_GetRequest.py:36 Starting test_get_request_singleuser
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "GET /api/users/2 HTTP/1.1" 200 None
+INFO     root:test_GetRequest.py:40 GET response: <Response [200]>

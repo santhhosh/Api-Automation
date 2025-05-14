@@ -4,20 +4,21 @@ import jsonpath
 from config.test_env_config import *
 from Data.testdata import *
 from logs.logger import logclass
+from Utilities.testutilities import *
 
 class TestPutRequest(logclass):
  def test_put_request_update(self):
-  log = self.get_the_logs()
-  log.info("Starting test_put_request_update")
-  file = open(put_request_data)
-  json_input = file.read()
-  request_json = json.loads(json_input)
+  #log = self.get_the_logs()
+  #log.info("Starting test_put_request_update")
+  #file = open(put_request_data)
+  #json_input = file.read()
+  #request_json = json.loads(json_input)
 
  #put request with json input body
   response = requests.put(Put_URL1,request_json)
 
  #validating response code
-  assert response.status_code ==200
+  assert response.status_code ==201
   print("Response of Put Method:",response)
 
  #fetch header and content from response

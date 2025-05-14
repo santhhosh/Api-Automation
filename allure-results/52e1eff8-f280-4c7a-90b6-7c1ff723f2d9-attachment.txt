@@ -1,9 +1,0 @@
-[35mDEBUG   [0m root:logger.py:44 Debug message
-[32mINFO    [0m root:logger.py:45 Information regarding the test case
-[33mWARNING [0m root:logger.py:46 Test case pass but with a Warning message
-[31m[1mERROR   [0m root:logger.py:47 Test case fail
-[31mCRITICAL[0m root:logger.py:48 Important test case fail on which other test case depends
-[32mINFO    [0m root:test_DeleteRequest.py:12 Starting test_Delete_request
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "DELETE /api/users/2 HTTP/1.1" 204 0
-[32mINFO    [0m root:test_DeleteRequest.py:22 Ending test_Delete_request

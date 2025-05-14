@@ -1,3 +1,4 @@
-pytest --alluredir=allure-results100425
+pytest --alluredir=allure-results
+
 allure serve allure-results
 
