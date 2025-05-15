@@ -56,3 +56,29 @@ class TestGetRequest(logclass):
    print("First name:", first_name[0])
   else:
    log.warning("First name not found in response")
+
+ def test_get_request_delayedresponse(self):
+  log = self.get_the_logs()
+  log.info("Starting test_get_request_delayedresponse")
+
+  # Send GET request
+  response = requests.get(Get_URL2)
+  log.info(f"GET response: {response}")
+
+  # Validate response
+  assert response.status_code == 200, f"Expected status 200 but got {response.status_code}"
+
+  # Print response content and headers
+  print("Content of GET method (single user):", response.content)
+  print("Header of GET method (single user):", response.headers)
+
+  # Parse response to JSON
+  json_response = response.json()
+  print("JSON response (single user):", json_response)
+
+  # Fetch value using jsonpath
+  first_name = jsonpath.jsonpath(json_response, '$.data.first_name')
+  if first_name:
+   print("First name:", first_name[0])
+  else:
+   log.warning("First name not found in response")

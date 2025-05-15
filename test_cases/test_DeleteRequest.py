@@ -20,3 +20,5 @@ class TestDeleteRequest(logclass):
    print("Content of delete Method:",response.content)
 
    log.info("Ending test_Delete_request")
+
+
