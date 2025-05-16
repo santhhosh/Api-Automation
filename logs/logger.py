@@ -1,5 +1,5 @@
 import logging
-
+#reqres
 class logclass:
     def get_the_logs(self):
         logger = logging.getLogger()

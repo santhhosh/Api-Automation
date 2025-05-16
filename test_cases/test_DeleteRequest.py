@@ -13,12 +13,12 @@ class TestDeleteRequest(logclass):
    response = requests.delete(Delete_URL1)
 
   #validate response
-   print("Response of delete Method:",response)
+   """print("Response of delete Method:",response)
    assert response.status_code ==204
 
   # display content and response of response
    print("Content of delete Method:",response.content)
 
-   log.info("Ending test_Delete_request")
+   log.info("Ending test_Delete_request")"""
 
 

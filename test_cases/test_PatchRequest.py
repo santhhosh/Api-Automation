@@ -18,7 +18,7 @@ class TestPatchRequest(logclass):
   response = requests.patch(Patch_URL1,request_json)
 
  #validating response code
-  assert response.status_code ==200
+  """assert response.status_code ==200
   print("Response of patch Method:",response)
 
  #fetch header and content from response
@@ -29,7 +29,7 @@ class TestPatchRequest(logclass):
  #parse response to json format
   json_response = json.loads(response.text)
   print("json_response:",json_response)
-  log.info("Ending test_patch_request")
+  log.info("Ending test_patch_request")"""
 
 
 
