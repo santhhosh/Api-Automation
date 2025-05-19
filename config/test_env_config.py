@@ -7,4 +7,4 @@ Patch_URL1= "https://reqres.in/api/users/2"
 Delete_URL1= "https://reqres.in/api/users/2"
 Post_URL2= "https://reqres.in/api/login"
 Get_URL2 = "https://reqres.in/api/users?delay=3"
-
+Get_URL3 = "https://reqres.in/api/users?delay=3"
